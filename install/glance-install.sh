@@ -63,7 +63,7 @@ WorkingDirectory=/opt/glance
 ExecStart=/opt/glance/glance --config /opt/glance/glance.yml
 TimeoutStopSec=20
 KillMode=process
-Restart=on-failure
+Restart=always
 
 [Install]
 WantedBy=multi-user.target" >$service_path
