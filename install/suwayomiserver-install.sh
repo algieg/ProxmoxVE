@@ -15,7 +15,7 @@ update_os
 
 msg_info "Installing Dependencies"
 $STD apt-get install -y \
-  openjdk-17-jre \
+  openjdk-21-jre \
   libc++-dev
 msg_ok "Installed Dependencies"
 
