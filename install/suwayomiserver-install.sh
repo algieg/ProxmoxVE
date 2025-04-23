@@ -18,7 +18,7 @@ $STD apt-get install -y \
   curl \
   sudo \
   mc \
-  openjdk-wq-jre \
+  openjdk-21-jre \
   libc++-dev
 msg_ok "Installed Dependencies"
 
