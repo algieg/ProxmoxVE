@@ -18,7 +18,7 @@ $STD apt-get install -y \
   curl \
   sudo \
   mc \
-  openjdk-17-jre \
+  openjdk-wq-jre \
   libc++-dev
 msg_ok "Installed Dependencies"
 
